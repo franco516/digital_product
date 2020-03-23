@@ -1,0 +1,84 @@
+.container{
+ padding: 5%;
+}
+
+.products_1{
+  padding-left: 5%;
+  margin: 50px;
+}
+.row_1{
+  display:grid;
+grid-template-columns:34% 66% ;
+}
+.text{
+  display: flex;
+  align-items: center;
+}
+.texts{
+  display: inline-block;
+}
+
+.row_2{
+  display: grid;
+  grid-template-columns: 64% 34%;
+}
+.row_3{
+  display: grid;
+  grid-template-columns:34% 66% ;
+}
+
+.container_2{
+  margin:50px 200px;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  column-gap:1em;
+}
+
+.col_1{
+  width: 8.3333333333%;
+}
+.col_2{
+  width: 16.6666666666%;
+}
+.col_3{
+  width: 24.9999999999%;
+}
+.col_4{
+  width: 33.333333333%;
+}
+.col_5{
+  width: 41.666666666%;
+}
+.col_6{
+  width: 50%;
+}
+.col_7{
+  width: 58.3333333333%;
+}
+.col_8{
+  width: 66.6666666666%;
+}
+.col_9{
+  width: 75%;
+}
+.col_10{
+  width: 83.333333333%;
+}
+.col_11{
+  width: 91,666666666%;
+}
+.col_12{
+  width: 100%;
+}
+.col_1,.col_2,.col_3,.col_4,.col_5,.col_6,.col_7,.col_8,.col_9,.col_10,.col_11,.col_12,{
+  padding: 10px;
+}
+
+@media (max-width:900px){
+  .row{
+    display: inherit;
+  }
+  .col_1,.col_2,.col_3,.col_4,.col_5,.col_6,.col_7,.col_8,.col_9,.col_10,.col_11,.col_12,{
+    padding: 100%;
+  }
+}

@@ -1,0 +1,12 @@
+body{
+  background-color: rgb(97, 211, 116);
+  text-align: center;
+  color: rgb(250, 253, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.content_paypal a{
+color:black;
+}
